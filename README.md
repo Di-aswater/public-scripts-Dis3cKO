@@ -1,5 +1,4 @@
-# public_scripts_dis3_new
-# Key scripts for RNA-seq analysis and plotting
+# Key scripts for sequencing analysis and plotting
 
 This repository collects all key stripts used to analyze RNA-seq and plot images in our study, including bash, R, jupyter notebooks.
 
