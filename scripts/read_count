@@ -1,0 +1,5 @@
+# Example of reads count from bam files
+htseq-count -m intersection-strict -f bam -s yes \
+            ~/data/bam/file_1.bam \
+            ~/Mus_musculus.GRCm38.100.gtf > \
+            ~/data/count/file_1_count.txt

@@ -1,0 +1,8 @@
+# Example of STAR align
+STAR  --runThreadN 32
+      --genomeDir ~/genomeDir/
+      --sjdbGTFfile ~/Mus_musculus.GRCm38.100.gtf
+      --readFilesCommand gunzip -c
+      --outSAMtype BAM SortedByCoordinate
+      --readFilesIn ~/data/fastq/file_1.fastq.gz
+      --outFileNamePrefix ~/data/bam/file_1
